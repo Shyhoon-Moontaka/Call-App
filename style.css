@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+h1{
+    color: azure;
+    text-align: center;
+    font-weight:bold;
+}
+h3{
+    color: bisque;
+    text-align: center;
+    font-weight:bold;
+}
+input{
+    background-color: blueviolet;
+    margin-left:23%;
+    font-size:medium;
+    width:50%;
+    text-align: center;
+}
+button{
+    background-color: crimson;
+    font-size:large;
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+
+    video {
+        margin-top:3%;
+        height:49.8%;
+        margin-bottom:1%;
+    }
+
+}
+
+@media screen and (min-width: 601px) {
+   
+
+    video {
+        margin-top:3%;
+        width:49.8%;
+        margin-bottom:1%;
+    }
+
+}
