@@ -12,23 +12,26 @@ h3{
     text-align: center;
     font-weight:bold;
 }
+.div1{
+    margin:0 auto;
+    width:70%;
+}
 input{
     background-color: blueviolet;
-    margin-left:23%;
-    font-size:medium;
-    width:50%;
+    width: 90%;
     text-align: center;
 }
 button{
     background-color: crimson;
-    font-size:large;
+    font-size:medium;
     
 }
-#localVideo{
-    float: left;
-    margin-top:15px;
+.div2{
+    padding-top:4%;
+    margin:0 auto;
+    width:80%;
 }
-#remoteVideo{
-    float:right;
-    margin-top:15px;
+video{
+    width:100%;
 }
+
