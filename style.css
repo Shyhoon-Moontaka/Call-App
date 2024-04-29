@@ -1,13 +1,14 @@
 body {
-    background-color: black;
+    background-image: linear-gradient(to bottom right,red,green,blue);
 }
 h1{
-    color: azure;
+    color:darkgrey;
     text-align: center;
     font-weight:bold;
+    text-shadow: 3px 3px 5px black;
 }
 h3{
-    color: bisque;
+    color:black;
     text-align: center;
     font-weight:bold;
 }
@@ -23,25 +24,11 @@ button{
     font-size:large;
     
 }
-
-@media screen and (max-width: 600px) {
-    
-
-    video {
-        margin-top:3%;
-        height:49.8%;
-        margin-bottom:1%;
-    }
-
+#localVideo{
+    float: left;
+    margin-top:15px;
 }
-
-@media screen and (min-width: 601px) {
-   
-
-    video {
-        margin-top:3%;
-        width:49.8%;
-        margin-bottom:1%;
-    }
-
+#remoteVideo{
+    float:right;
+    margin-top:15px;
 }
